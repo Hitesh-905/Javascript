@@ -18,3 +18,4 @@ accName="Hitesh"; // this is allowed as let can be reassigned
 
 
 var accState="UP"; // this is allowed as var can be reassigned
+//and var can also be redeclared it is a global scoped variable

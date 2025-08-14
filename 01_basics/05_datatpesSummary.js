@@ -6,7 +6,7 @@ there are 7 datatypes in javascript
 3. boolean
 4. null
 5. undefined
-6. object
+6.bigint
 7. symbol
 */
 //non primitive datatypes are object funtions and arrays

@@ -13,7 +13,7 @@ let valueInNumber=Number(score1);
 
 
 let matchpoint="32abc";
-// console.log("typeof matchpoint: ", typeof matchpoint); //string
+// console.log(typeof matchpoint); //string
 
 let convertingmatchpoint=Number(matchpoint)
 // console.log(typeof convertingmatchpoint); //number
@@ -36,8 +36,8 @@ undefined -> NaN (undefined cannot be converted to a number)
 let loggedin="1";
 // console.log(typeof loggedin)
 let checkloggedin=Boolean(loggedin);
-// console.log(typeof checkloggedin);
-// console.log(checkloggedin)
+console.log(typeof checkloggedin);
+console.log(checkloggedin)
 
 /*
 notes
@@ -54,4 +54,4 @@ notes
 // let b=20;
 
 // let sum=a+b;
-// // console.log("sum: ", sum); //30      
+// console.log("sum: ", sum); //30    

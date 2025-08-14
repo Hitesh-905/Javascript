@@ -23,13 +23,13 @@ let bigIntValue = BigInt(12345678901234567890); //bigint
 let symbolValue = Symbol("unique"); //symbol
 //symbol is used to create unique identifiers
 //identifiers are used to create unique keys for objects
-//we use symbols mostlly while working in react to check which component is more unique than other components
+//we use symbols mostly while working in react to check which component is more unique than other components
 
 
-console.log(typeof null); //object (this is a bug in javascript, null is not an object)
+console.log(typeof salary); //object (this is a bug in javascript, null is not an object)
 //why null is an object?
 //because in the early days of javascript, null was represented as an object in memory
 //this is a historical bug and it is not going to be fixed
 
-console.log(typeof undefined);//undefined
-//undefined is a type that indicates a variable has not been assigned a value
+console.log(typeof address);//undefined
+//undefined is a type that indicates a variable has not been assigned a value.
