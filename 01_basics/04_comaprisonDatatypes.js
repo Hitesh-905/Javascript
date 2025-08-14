@@ -30,3 +30,5 @@ console.log(undefined == null); //true, because both are falsy values
 console.log(undefined === null); //false, because they are of different types
 
 //to avoid such issues, it is recommended to use strict equality (===) and strict inequality (!==) operators in javascript
+
+
