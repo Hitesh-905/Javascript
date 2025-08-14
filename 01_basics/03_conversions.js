@@ -34,10 +34,11 @@ undefined -> NaN (undefined cannot be converted to a number)
 //coverting datatypes to boolean
  
 let loggedin="1";
-console.log(typeof loggedin)
+// console.log(typeof loggedin)
 let checkloggedin=Boolean(loggedin);
-console.log(typeof checkloggedin);
-console.log(checkloggedin)
+// console.log(typeof checkloggedin);
+// console.log(checkloggedin)
+
 /*
 notes
 "" -> false (empty string is falsy)
@@ -45,3 +46,12 @@ notes
 0 -> false (zero is falsy)
 */
 
+//           ******************************************************Operations***********************************************************
+
+// //operations in javasscript
+// aritmetic operations
+// let a=10;
+// let b=20;
+
+// let sum=a+b;
+// // console.log("sum: ", sum); //30      
