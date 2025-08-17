@@ -5,8 +5,8 @@
 // console.log(typeof score);//string
 
 // const newscore=Number(score);//converting string to number
-// console.log(newscore);
-// console.log(typeof newscore);
+// console.log(newscore);//100
+// console.log(typeof newscore);//number
 
 
 // const numberabc=100.2596;
@@ -18,7 +18,7 @@
 
 // const hundred=10000000000;
 // console.log(hundred.toLocaleString('en-IN'))
-// console.log(hundred.toLocaleString());
+// console.log(hundred.toLocaleString());//10000000000 -this will convert the number to a string with commas as thousands separators
 
 
 

@@ -11,9 +11,9 @@
 
 
 //another example is of comparing null andd other datatypes
-console.log(null >0);
-console.log(null < 0);
-console.log(null >= 0);
+console.log(null >0);//false
+console.log(null < 0);//false
+console.log(null >= 0);//true, because null is treated as 0 in comparisons
 console.log(null == 0);//false 
 
 // the reason behind this is that eqality check and comparison ceheck works differntly in javascript
