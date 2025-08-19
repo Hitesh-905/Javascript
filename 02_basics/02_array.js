@@ -40,7 +40,7 @@ console.log(Array.isArray(hitesh));//false
 
 console.log(Array.from("hitesh"));
 
-//an interesting interview question 
+//an interesting interview question. 
 console.log(Array.from({name:"hitesh"}))//this will return an empty array because the object does not have any iterable properties
 //we should first specify what to convert to an array whether the key or the value
 
@@ -52,3 +52,4 @@ let score3=300
 
 console.log(Array.of(score1,score2,score3));//this will create an array with the given values
 // console.log(Array.of(1,2,3,4,5));//this will create an array with the given values
+
