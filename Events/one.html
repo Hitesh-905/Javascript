@@ -19,6 +19,46 @@
    </div>
 </body>
 <script>
-    
+    // document.getElementById('owl').onclick=function(){
+    //     alert('You Clicked on owl');
+    // }
+
+    // document.getElementById('owl').addEventListener('click',function(){         //optimized way 
+    //     alert('Owl clicked again');
+    // })
+    //event propogation
+   // event bubbling(default and most used),event capture
+
+     // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
+    // document.getElementById('images').addEventListener('click',function(e){         //optimized way 
+    //   console.log('clicled inside the ul');
+    // },false)//event propogation
+
+    // document.getElementById('owl').addEventListener('click',function(e){         //optimized way 
+    //   console.log('owl clicked');
+    //   e.stopPropagation();
+    // },false)
+
+    // document.getElementById('google').addEventListener('click',function(e){
+    //         e.preventDefault();
+    //         e.stopPropagation();
+    //         console.log('clicked on google');
+    // })
+
+    //lets solve a small task 'on clicking the image should be removed the whole li '
+    document.getElementById('images').addEventListener('click',function(e){
+        if(e.target.tagName==='IMG'){
+            let removeIt = e.target.parentNode
+             removeIt.remove();
+           // removeIt.parentNode.removeChild(removeIt)
+        }
+        
+    })
+
+
 </script>
 </html
