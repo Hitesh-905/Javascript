@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetTimeout</title>
+</head>
+<body>
+    <h1 id="name">Chai Aur Code</h1>
+    <button id="stop">Stop</button>
+   
+</body>
+<script>
+     const changeName = function(){
+        document.getElementById('name').innerHTML="Best teacher in the world HITESH CHOUDHARY";
+        console.log('chal gaya bhai');
+    }
+   const timerOP=setTimeout(changeName,3000);
+
+  document.querySelector('#stop').addEventListener('click',function(e){
+       clearTimeout(timerOP);
+        console.log('stopped');
+   })
+</script>
+</html>
